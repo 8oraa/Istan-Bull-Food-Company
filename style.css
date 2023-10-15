@@ -1,0 +1,75 @@
+
+.gorsel-ve-yazi {
+    display: flex; /* İçeriği yatay hizalamak için flex kullan */
+    align-items: center; /* İçeriği dikey olarak ortalamak için kullanabilirsiniz */
+}
+
+.gorsel-ve-yazi img {
+    width: 50%; /* Görsel boyutunu ayarlayın */
+    margin-right: 20px; /* Görsel ile metin arasındaki boşluğu ayarlayın */
+}
+
+.gorsel-ve-yazi p {
+    flex-grow: 1; /* Metin kalan alanı kaplar */
+}
+
+
+
+
+
+
+
+.sag-yazi{
+    float: right;
+    margin-left: 60px;
+}
+
+
+.sol-gorsel {
+    float: left; /* Görseli sola kaydır */
+    margin-right: 20px; /* İstediğiniz boşluk miktarını ayarlayın */
+}
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 960px;
+}
+
+.card {
+    position: relative;
+    left: 0px;
+    width: 800px;
+    height: 700px;
+    overflow: hidden;
+    background-color: var(
+        --background
+    );
+    transition: 0.6s
+        ease-in-out;
+    flex: 0.25;
+}
+
+.card img {
+    height: 475px;
+}
+
+.card:hover {
+    flex: 2;
+    font-weight: bold;
+    cursor: pointer;
+}
