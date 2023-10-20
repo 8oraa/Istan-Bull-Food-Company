@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="br8 library.css">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <link rel="stylesheet" href="style2.css">
+ 
+    <!-- gsap  -->
+    <script src="gsap.js"></script>
    
 
 
@@ -29,76 +33,112 @@
   </div>
 
 
-
-  <h1>.............................................................</h1>
-  
-  <!-- Slider -->
-     <div class="background">
-            <div class="gallery">
-                <div class="card">
-                  <a href="Header/Menü/Menü.html">
-                <img 
-                    src="./Header/Menü/menü/İskender.jpg"
-                    alt="iskender"
-                    >
-                  </a>
-                </div>
-                <div class="card">
-                  <a href="Header/Menü/Menü.html">
-                    <img
-                        src="./Header/Menü/menü/Lahmacun.jpg" 
-                        alt="lahmacun"
-                    >
-                  </a>
-                </div>
-                <div class="card">
-                  <a href="Header/Menü/Menü.html">
-                    <img
-                        src="./Header/Menü/menü/Döner.jpg"
-                        alt="Döner"
-                    >
-                  </a>
-                </div>
-                <div class="card">
-                  <a href="Header/Menü/Menü.html">
-                    <img
-                        src="./Header/Menü/menü/Yaprak Sarma.jpg" 
-                        alt="yaprak sarma"
-                    >
-                  </a>
-                </div>
-                <div class="card">
-                  <a href="Header/Menü/Menü.html">
-                  <img 
-                    src="./Header/Menü/menü/Pide.jpg"
-                    alt="Pide"
-                    >
-                  </a>
-                </div>
-               <!-- daha fazla resmi buraya yükle -->
-              
-              </div>  
-
-
-   <!-- google maps konumu  -->
-              <div id="map"></div>
-              
-        <!-- üst görsel ve yazı  -->
-<div class="gorsel-ve-yazi">
-  <img src="./Header/Menü/menü/baklava.jpg" alt="Görsel">
-  <p>İstan-bull Restoran, İstanbul'un zengin mutfak mirasını ve benzersiz lezzetlerini dünyaya sunmayı hedefleyen bir aile işletmesidir. 10 yıldan fazla bir süredir İstanbul'un en iyi yemeklerini sunarak, yerel ve uluslararası müşterilerimize unutulmaz bir yemek deneyimi sunuyoruz.
-
-  </p>
+  <div class="img">
+    <img src="Header/Hakkimizda/Hakkimizda Images/Hakkimizda 3.jpg" alt="">
 </div>
 
-<img src="./Header/Hakkimizda/Hakkimizda Images/Hakkimizda 3.jpg" class="br8-image " style=" height: 100%; width:100%;">
+<div class="title">
+    <h1>
+        <span class="text-one">Istan-<label> Bull</label></span>
+    </h1>
+    <h2><span>R</span>estaurant</h2>
+  
 
-<h2> asfsgasgsa</h2>
+</div>
 
+</div>
 
+<script>
+TweenMax.from(".logo", 1.6, {
+    delay: .2,
+    opacity: 0,
+    y: 20,
+    ease: Expo.easeInOut
+})
 
-       
+TweenMax.from(".search", 1.6, {
+    delay: .4,
+    opacity: 0,
+    y: 20,
+    ease: Expo.easeInOut
+})
 
+TweenMax.from(".logo-icon", 1.6, {
+    delay: 0,
+    opacity: 0,
+    y: 20,
+    ease: Expo.easeInOut
+})
+
+TweenMax.staggerFrom(".text-one", 2, {
+    delay: 2.6,
+    opacity: 0,
+    y: 40,
+    ease: Expo.easeInOut
+}, 0.2)
+
+TweenMax.staggerFrom(".text-two", 1.5, {
+    delay: 3.4,
+    opacity: 0,
+    y: -40,
+    ease: Expo.easeInOut
+}, 0.2)
+TweenMax.staggerFrom(".text-two label", 1, {
+    delay: 4,
+    opacity: 0,
+
+    ease: Expo.easeInOut
+}, 0.2)
+
+TweenMax.staggerFrom("h2", 2, {
+    delay: 4,
+    opacity: 0,
+    x: -60,
+    ease: Expo.easeInOut
+}, 0.2)
+
+TweenMax.staggerFrom(".text-three", 2, {
+    delay: 4.7,
+    opacity: 0,
+    y: 40,
+    ease: Expo.easeInOut
+}, 0.2)
+
+TweenMax.from("button", 2, {
+    delay: 5.5,
+    opacity: 0,
+    y: -30,
+    ease: Expo.easeInOut
+})
+
+TweenMax.from(".line", 2, {
+    delay: 5,
+    opacity: 0,
+    x: -100,
+    ease: Expo.easeInOut
+})
+
+TweenMax.from(".tag", 2, {
+    delay: 5.3,
+    opacity: 0,
+    y: -30,
+    ease: Expo.easeInOut
+})
+
+TweenMax.staggerFrom(".media ul li", 2, {
+    delay: 6,
+    opacity: 0,
+    y: -40,
+    ease: Expo.easeInOut
+}, 0.2)
+
+TweenMax.staggerFrom(".left-right ul li", 2, {
+    delay: 6.4,
+    opacity: 0,
+    y: -40,
+    ease: Expo.easeInOut
+}, 0.2)
+</script>
 
 </body>
 </html>
