@@ -1,11 +1,14 @@
 # Istan-Bull-Restaurant
-Örnek bir restoran sitesi ve yemek temalı bu sitede farklı pagelerin bulunduğu css,js ve html in kullanıldığı bir restoran sitesi kodlamaya çalıştım
+Örnek bir restoran sitesi olan bu sitede farklı pagelerin bulunduğu html,css,js ve animasyonlar için Gsap'in kullanıldığı bir restoran web sitesi tasarlayıp kodlamaya çalıştım
 
 Siteyle ilgili görseller:
-![Menü sayfasi2](https://github.com/8oraa/Istan-Bull-Food-Company/assets/115693805/217dcab5-8fe8-4be0-9a4b-4b117b573a0f)
-![Menü sayfasi1](https://github.com/8oraa/Istan-Bull-Food-Company/assets/115693805/c695e866-3d55-416c-984c-0d2cc32cf25c)
-![hakkimizda3](https://github.com/8oraa/Istan-Bull-Food-Company/assets/115693805/90cd9f48-8cad-43b0-a982-19685d3f69f3)
-![hakkimizda2](https://github.com/8oraa/Istan-Bull-Food-Company/assets/115693805/b1246776-1243-44c5-880a-758da5794917)
-![hakkimizda1](https://github.com/8oraa/Istan-Bull-Food-Company/assets/115693805/b52723f7-04c3-4af5-808a-810d6a88bcaa)
-![iletisim2](https://github.com/8oraa/Istan-Bull-Food-Company/assets/115693805/63128be0-384f-40d4-b5c8-9b9091be357f)
-![İletisim1](https://github.com/8oraa/Istan-Bull-Food-Company/assets/115693805/cd12c0e7-5623-4fb1-85e7-1bb3eae5e94b)
+
+![Anasayfa](https://github.com/8oraa/Istan-Bull-Food-Company/assets/115693805/8ab7a8f5-a1dd-44ee-a1a7-c9220fe3133b)
+![yemekler](https://github.com/8oraa/Istan-Bull-Food-Company/assets/115693805/40a216b3-e054-4426-a44c-4fabccf3555b)
+![Tatlılar](https://github.com/8oraa/Istan-Bull-Food-Company/assets/115693805/bc7cc2fc-61eb-42c8-a97c-1cf5e9bd91bc)
+![İçecekler](https://github.com/8oraa/Istan-Bull-Food-Company/assets/115693805/9398b6be-89f4-418a-873d-27608042cb96)
+![iletişim1](https://github.com/8oraa/Istan-Bull-Food-Company/assets/115693805/631efd90-26e8-467c-bcc7-496703bf5c16)
+![İletişim2jpg](https://github.com/8oraa/Istan-Bull-Food-Company/assets/115693805/db6f8d2b-8389-4aca-b276-e75db24b5103)
+![Hakkımızda 1](https://github.com/8oraa/Istan-Bull-Food-Company/assets/115693805/7b784304-9b09-4a99-91f2-8916765d6a90)
+![hakkımızda 2](https://github.com/8oraa/Istan-Bull-Food-Company/assets/115693805/245ad045-d334-4dc3-a6a2-d6597688dc0a)
+![Hakkımızda 3](https://github.com/8oraa/Istan-Bull-Food-Company/assets/115693805/510509c0-3525-4ad6-aca9-a823e4abb96e)
