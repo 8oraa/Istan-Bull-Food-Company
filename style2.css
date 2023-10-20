@@ -8,32 +8,6 @@ body {
     overflow: hidden;
 }
 
-.navbar {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    height: 80px;
-    align-items: center;
-}
-
-.navbar>div {
-    padding: 50px 30px;
-    margin: 50px;
-    font-size: 20px;
-}
-
-.navbar .logo-icon {
-    position: relative;
-    left: -20px;
-}
-
-.navbar .logo {
-    position: relative;
-    right: 500px;
-    font-size: 11px;
-    font-weight: 600;
-    text-transform: uppercase;
-}
 
 .img img {
     width: 77%;
@@ -161,10 +135,10 @@ img {
     }
     50% {
         left: 0%;
-        width: 47%;
+        width: 77%;
     }
     100% {
-        left: 47%;
+        left: 77%;
         width: 0%;
     }
 }
