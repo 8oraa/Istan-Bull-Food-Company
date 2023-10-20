@@ -22,13 +22,13 @@ body {
 
 .title {
     position: absolute;
-    top: 550px;
+    top: 360px;
     left: 290px;
     z-index: 2;
 }
 
 .title h1 {
-    font-size: 100px;
+    font-size: 60px;
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: -5px;
@@ -58,7 +58,7 @@ body {
 }
 
 .title h2 span {
-    font-size: 250px;
+    font-size: 220px;
 }
 
 
