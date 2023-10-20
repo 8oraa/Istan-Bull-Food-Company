@@ -5,7 +5,7 @@ Siteyle ilgili görseller:
 
 ![Anasayfa](https://github.com/8oraa/Istan-Bull-Food-Company/assets/115693805/8ab7a8f5-a1dd-44ee-a1a7-c9220fe3133b)
 ![yemekler](https://github.com/8oraa/Istan-Bull-Food-Company/assets/115693805/40a216b3-e054-4426-a44c-4fabccf3555b)
-![Tatlılar](https://github.com/8oraa/Istan-Bull-Food-Company/assets/115693805/403c8540-0d3a-4e0f-885c-34c6ba84971f)
+![Tatlılar](https://github.com/8oraa/Istan-Bull-Food-Company/assets/115693805/bc7cc2fc-61eb-42c8-a97c-1cf5e9bd91bc)
 ![İçecekler](https://github.com/8oraa/Istan-Bull-Food-Company/assets/115693805/9398b6be-89f4-418a-873d-27608042cb96)
 ![iletişim1](https://github.com/8oraa/Istan-Bull-Food-Company/assets/115693805/631efd90-26e8-467c-bcc7-496703bf5c16)
 ![İletişim2jpg](https://github.com/8oraa/Istan-Bull-Food-Company/assets/115693805/db6f8d2b-8389-4aca-b276-e75db24b5103)
