@@ -63,27 +63,6 @@ body {
 
 
 
-.media {
-    position: absolute;
-    left: -120px;
-    top: 50%;
-    transform: rotate(-90deg);
-}
-
-.media ul {
-    list-style: none;
-}
-
-.media ul li {
-    display: inline-block;
-    font-weight: 500;
-    font-size: 15px;
-}
-
-.media ul li:not(:last-child) {
-    padding-right: 60px;
-}
-
 .left-right {
     position: absolute;
     right: 40px;
