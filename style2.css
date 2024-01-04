@@ -1,13 +1,4 @@
 
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #ebecf0;
-    height: 100vh;
-    font-family: 'poppins', sans-serif;
-    overflow: hidden;
-}
-
 
 .img img {
     width: 77%;
@@ -43,14 +34,14 @@ body {
 }
 
 .title h1 .text-one label {
-    color: #cccccc;
+    color: #000000de;
 }
 
 .title h2 {
     position: absolute;
     top: 45px;
     left: -13px;
-    color: #eda7a7;
+    color: #ff0000de;
     z-index: -1;
     font-size: 180px;
     font-weight: 900;

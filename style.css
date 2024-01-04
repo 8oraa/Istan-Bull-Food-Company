@@ -1,80 +1,58 @@
-#map {
-    height: 300px;
-    width: 400px;
+
+:root{
+    --primary-color:#ff0000de;
+    --background-color:#f0f3f7;
+    --secon-color:_ #9da2ad;
+    --grey:• #7a7a7b;
+    --white:#ffffff;
+    
+  }
+  
+.nav a{
+text-decoration: none;
+
+
 }
 
-
-.gorsel-ve-yazi {
-    display: flex; /* İçeriği yatay hizalamak için flex kullan */
-    align-items: center; /* İçeriği dikey olarak ortalamak için kullanabilirsiniz */
-}
-
-.gorsel-ve-yazi img {
-    width: 50%; /* Görsel boyutunu ayarlayın */
-    margin-right: 20px; /* Görsel ile metin arasındaki boşluğu ayarlayın */
-}
-
-.gorsel-ve-yazi p {
-    flex-grow: 1; /* Metin kalan alanı kaplar */
-}
-
-
-
-
-
-
-
-.sag-yazi{
-    float: right;
-    margin-left: 60px;
-}
-
-
-.sol-gorsel {
-    float: left; /* Görseli sola kaydır */
-    margin-right: 20px; /* İstediğiniz boşluk miktarını ayarlayın */
-}
-
-
-
-
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;  
-}
-
-
-
-.gallery {
+.nav{
+    
+    position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 99;
+    background-color: var(--background-color);
+    box-shadow: rgba(99, 99, 99, 02) 0px 2px 8px 0px;
+  }
+  
+  .menu-wrap {
+      max-width: 1366px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem;
+  }
+  
+  .logo {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: var(--primary-color);
+  }
+  
+  .menu{
     display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-    max-width: 960px;
-}
-
-.card {
-    position: relative;
-    left: 0px;
-    width: 800px;
-    height: 700px;
-    overflow: hidden;
-    background-color: var(
-        --background
-    );
-    transition: 0.6s
-        ease-in-out;
-    flex: 0.25;
-}
-
-.card img {
-    height: 475px;
-}
-
-.card:hover {
-    flex: 2;
-    font-weight: bold;
-    cursor: pointer;
-}
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menu-item{
+  margin-left: 1.5rem;
+  padding: 0.5rem 1.5rem;
+  font-weight: 600;
+  color: var(--grey);
+  transition: .5s ease-in-out;
+  cursor: pointer;
+  
+  }
+  
+  
